@@ -1,12 +1,11 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://devsoyoung.github.io',
+  title: '큐트리 개발블로그',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
@@ -23,16 +22,12 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: '큐트리',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '프론트엔드 개발과 어피치를 좋아합니다.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'soyoung.dev@gmail.com',
+      github: 'devSoyoung',
     }
   }
 };
