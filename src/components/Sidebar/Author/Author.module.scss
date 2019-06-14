@@ -2,11 +2,23 @@
 @import '../../../assets/scss/mixins';
 
 .author {
+  text-align: center;
+  letter-spacing: -0.8px;
+
+  & p {
+    margin-bottom: 20px;
+  }
+
   &__photo {
-    display: inline-block;
-    margin-bottom: 0;
+    display: block;
+    margin: auto auto 0;
     border-radius: 50%;
-    background-clip: padding-box
+    background-clip: padding-box;
+
+    &:hover {
+      opacity: 0.5;
+      transition: all 0.2s;
+    }
   }
 
   &__title {
@@ -27,10 +39,10 @@
 
   }
 
-  &__subtitle {
-    color: $color-gray;
-    @include line-height(1);
-    @include margin-bottom(1)
-  }
+  //&__subtitle {
+  //  color: $color-gray;
+  //  @include line-height(1);
+  //  @include margin-bottom(1)
+  //}
 
 }
