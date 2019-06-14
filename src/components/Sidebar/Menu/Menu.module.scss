@@ -18,7 +18,6 @@
         font-size: $typographic-base-font-size;
         color: $typographic-base-font-color;
         font-weight: normal;
-        letter-spacing: -0.7px;
         text-transform: uppercase;
         border: 0;
 
@@ -29,7 +28,7 @@
         }
 
         &--active {
-          color: $color-base;
+          color: $color-primary;
           font-weight: 700;
         }
 

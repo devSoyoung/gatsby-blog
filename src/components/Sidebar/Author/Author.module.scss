@@ -3,7 +3,7 @@
 
 .author {
   text-align: center;
-  letter-spacing: -0.8px;
+  letter-spacing: $typographic-title-letter-spacing;
 
   & p {
     margin-bottom: 20px;
@@ -22,7 +22,7 @@
   }
 
   &__title {
-    font-size: $typographic-base-font-size * 1.125;
+    font-size: $typographic-base-font-size * 1.3;
     font-weight: 600;
     @include line-height(1.125);
     @include margin(.5, 0, .5, 0);
@@ -38,11 +38,5 @@
     }
 
   }
-
-  //&__subtitle {
-  //  color: $color-gray;
-  //  @include line-height(1);
-  //  @include margin-bottom(1)
-  //}
 
 }
