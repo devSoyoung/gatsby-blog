@@ -2,8 +2,13 @@
 @import '../../../assets/scss/mixins';
 
 .meta {
+  font-size: 13px;
+  text-align: right;
+  color: #a79c8e;
+  letter-spacing: -1px;
+
   &__date {
-    font-style: italic;
+    font-weight: 700;
   }
 
 }
