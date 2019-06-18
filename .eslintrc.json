@@ -17,7 +17,7 @@
         "graphql": true
     },
     "rules": {
-        "indent": [0, 4],
+        "indent": [0, 2],
         "comma-dangle": 0,
         "import/imports-first": 0,
         "global-require": 0,
