@@ -8,17 +8,20 @@
 
   &__title {
     font-size: $typographic-base-font-size * 2;
+    text-align: center;
+    letter-spacing: $typographic-title-letter-spacing;
     max-width: $layout-post-width;
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
-    text-align: center;
     @include line-height(1.65);
     @include margin-top(1);
     @include margin-bottom(0)
   }
 
   &__body {
+    font-family: Iropke Batang, sans-serif;
+
     & figure {
       @include margin-bottom(1);
 
@@ -40,8 +43,13 @@
 
     }
 
-    & a {
-      text-decoration: underline
+    & h1, h2 {
+      letter-spacing: $typographic-title-letter-spacing;
+      margin-top: 2rem;
+    }
+
+    & h3 {
+      margin-top: 1.5rem;
     }
 
     & * {
@@ -56,16 +64,30 @@
 
   }
 
+  blockquote {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #777764;
+
+    p {
+      font-size: 15px;
+      font-family: initial;
+      letter-spacing: -0.7px;
+      line-height: 1.5rem;
+      text-align: left;
+    }
+  }
+
 }
 
-@include breakpoint-md {
+@include breakpoint-sm {
   .content {
     padding: 0;
 
     &__title {
-      font-size: $typographic-base-font-size * 3;
+      font-size: $typographic-base-font-size * 2.3;
       @include line-height(2.25);
-      @include margin-top(2.25);
+      @include margin-top(1.5);
       @include margin-bottom(1.5)
     }
 
@@ -76,8 +98,8 @@
 
       & p {
         font-size: $typographic-base-font-size * 1.125;
-        @include line-height(1.125);
-        @include margin-bottom(1.125)
+        @include line-height(1.2);
+        @include margin-bottom(.5)
       }
 
     }

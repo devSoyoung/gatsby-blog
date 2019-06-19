@@ -31,6 +31,7 @@
 
     &-description {
       font-size: $typographic-base-font-size;
+      font-family: Iropke Batang, sans-serif;
       @include line-height(1);
       @include margin-bottom(.75);
     }
