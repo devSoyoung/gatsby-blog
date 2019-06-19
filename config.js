@@ -3,6 +3,7 @@
 module.exports = {
     url: 'https://devsoyoung.github.io',
     title: '큐트리 개발블로그',
+    subtitle: '',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     postsPerPage: 5,

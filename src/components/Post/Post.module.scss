@@ -2,6 +2,8 @@
 @import '../../assets/scss/mixins';
 
 .post {
+  animation: fadein 0.5s;
+
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
@@ -37,6 +39,15 @@
 
   }
 
+  &__top {
+    position: fixed;
+    background: #ffffff;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px;
+    border-radius: 250px;
+    box-shadow: 0 0 3px #e3dede;
+  }
 }
 
 @include breakpoint-md {
@@ -59,4 +70,9 @@
 
   }
 
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

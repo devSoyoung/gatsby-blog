@@ -3,10 +3,29 @@ title: "About me"
 template: "page"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+안녕하세요 :) <br/>
+귀여운 어피치를 좋아하는 개발자입니다.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+### Major
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+경희대학교에서 컴퓨터공학을 전공하고 있으며 <br/>
+웹 개발, 특히 프론트엔드에 관심이 많습니다. <br/>
+**React**를 사용한 다양한 프로젝트를 진행했습니다. <br/>
+브라우저 확장앱을 개발하기도 했습니다. 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+### Nickname
+
+저의 별명은 '큐트리'입니다.<br/>
+가끔씩 짖궂은 개발자분들께서<br/>
+제 별명을 **queue**와 **tree** 로 바꾸곤 하지만<br/>
+사실은 **cutelee** 입니다. <br />
+
+### Motto
+
+**'지나친 삽질은 우물 대신 무덤을 판다.'** 라는 <br/>
+좌우명을 가지고 있습니다.
+
+블로그를 시작하게 된 계기도, <br/>
+똑같은 내용을 또 다시 검색하는 일이 잦아 <br/>
+한 번 삽질한 것은 기록으로 남겨 <br/>
+두 번째 삽질을 방지하고자 시작하게 되었습니다. <br/>
