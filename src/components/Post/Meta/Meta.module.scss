@@ -5,9 +5,16 @@
   font-size: 14px;
   text-align: right;
   letter-spacing: -1px;
-  margin: 20px;
+  margin: 1rem;
 
   &__date {
     font-family: initial;
   }
+}
+
+@include breakpoint-sm {
+  .meta {
+    margin: 20px 152.5px;
+  }
+
 }

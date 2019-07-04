@@ -98,7 +98,7 @@
 
       & p {
         font-size: $typographic-base-font-size * 1.1;
-        @include line-height(1.1);
+        @include line-height(1.25);
         @include margin-bottom(.5)
       }
 
