@@ -6,7 +6,7 @@
     "scripts": {
         "develop": "yarn run clean && gatsby develop",
         "build": "yarn run clean && gatsby build",
-        "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+        "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public && cd public && rm *.map",
         "clean": "rimraf .cache public",
         "flow": "flow",
         "flow-typed": "flow-typed install",
@@ -40,6 +40,7 @@
         "disqus"
     ],
     "dependencies": {
+        "antd": "^3.20.3",
         "bluebird": "^3.5.5",
         "classnames": "^2.2.6",
         "codecov": "^3.5.0",
