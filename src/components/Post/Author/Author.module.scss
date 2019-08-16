@@ -10,10 +10,11 @@
   @include margin-top(1);
   @include margin-bottom(2);
 
-  &__avatar {
+  &__profile {
     display: block;
+    border-radius: 50%;
     margin: auto;
-    margin-bottom: 15px;
+    width: 70px;
   }
 
   &__bio {
