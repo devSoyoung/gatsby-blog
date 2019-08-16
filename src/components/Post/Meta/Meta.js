@@ -1,18 +1,17 @@
 // @flow
 import React from 'react';
-import { Tag } from 'antd';
 import moment from 'moment';
 import styles from './Meta.module.scss';
 
 type Props = {
   date: string,
-  tags: [],
+  category: string,
 };
 
-const Meta = ({ date, tags }: Props) => (
+const Meta = ({ date, category }: Props) => (
   <div className={styles['meta']}>
-    <div className={styles['meta__tags']}> {tags.map((tag) => <Tag>{tag}</Tag>)}</div>
-    <div className={styles['meta__date']}>Written at {moment(date).format('MMM Do, YYYY')}</div>
+    <span className={styles['meta__date']}>{moment(date).format('YYYY-MM-DD')}</span>
+    <span className={styles['meta__category']}>{category}</span>
   </div>
 );
 

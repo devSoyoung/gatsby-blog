@@ -5,6 +5,7 @@
   max-width: $layout-post-single-width;
   padding: 0 15px;
   margin: 0 auto;
+  margin-top: 30px;
 
   &__title {
     font-size: $typographic-base-font-size * 1.7;
@@ -14,7 +15,7 @@
     margin-right: auto;
     font-weight: 700;
     @include line-height(1.5);
-    @include margin-top(1);
+    @include margin-top(0.3);
     @include margin-bottom(0)
   }
 

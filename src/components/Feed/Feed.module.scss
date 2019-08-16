@@ -24,9 +24,7 @@
           color: $color-primary;
           transition: color 0.2s;
         }
-
       }
-
     }
 
     &-description {
@@ -59,11 +57,8 @@
           &:focus {
             color: $color-primary;
           }
-
         }
-
       }
-
     }
 
     &-readmore {
@@ -75,9 +70,6 @@
         color: $color-primary;
         border-bottom: 1px solid $color-primary;
       }
-
     }
-
   }
-
 }

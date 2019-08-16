@@ -7,15 +7,15 @@ type Props = {
   body: string,
   title: string,
   date: string,
-  tags: [],
+  category: string,
 };
 
 const Content = ({
-  body, title, date, tags,
+  body, title, date, category,
 }: Props) => (
   <div className={styles['content']}>
+    <Meta date={date} category={category} />
     <h1 className={styles['content__title']}>{title}</h1>
-    <Meta date={date} tags={tags} />
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
 );
