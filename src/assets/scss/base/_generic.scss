@@ -160,6 +160,12 @@ code[class*="language-"], pre[class*="language-"] {
   text-shadow: none;
   font-size: 13px;
 }
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #f4f4f4;
+}
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+  background: none;
+}
 
 @include breakpoint-sm {
   figure.float-left,
