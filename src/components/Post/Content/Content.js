@@ -5,13 +5,17 @@ import Meta from '../Meta';
 
 type Props = {
   body: string,
-  title: string
+  title: string,
+  date: string,
+  tags: [],
 };
 
-const Content = ({ body, title, date }: Props) => (
+const Content = ({
+  body, title, date, tags,
+}: Props) => (
   <div className={styles['content']}>
     <h1 className={styles['content__title']}>{title}</h1>
-    <Meta date={date} />
+    <Meta date={date} tags={tags} />
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
 );

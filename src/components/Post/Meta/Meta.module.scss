@@ -3,12 +3,16 @@
 
 .meta {
   font-size: 14px;
-  text-align: right;
   letter-spacing: -1px;
-  margin: 1rem;
+  margin-top: 10px;
+
+  &__tags {
+    display: inline-block;
+  }
 
   &__date {
-    font-family: initial;
+    display: inline-block;
+    float: right;
   }
 }
 

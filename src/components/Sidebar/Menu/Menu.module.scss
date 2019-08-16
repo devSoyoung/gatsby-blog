@@ -11,8 +11,8 @@
     text-align: center;
 
     &-item {
-      padding: 0;
-      margin: 10px 0;
+      display: inline-block;
+      padding: 10px;
 
       &-link {
         font-size: $typographic-base-font-size;
@@ -30,14 +30,12 @@
         &--active {
           color: $color-primary;
           font-weight: 700;
+          padding-bottom: 5px;
+          border-bottom: 2px solid;
         }
-
       }
-
     }
-
   }
-
 }
 
 @media (max-width: 700px) {
@@ -45,7 +43,6 @@
     &__list {
       &-item {
         display: inline-block;
-        margin: 10px;
       }
     }
   }

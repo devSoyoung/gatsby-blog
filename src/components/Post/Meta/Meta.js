@@ -1,15 +1,18 @@
 // @flow
 import React from 'react';
+import { Tag } from 'antd';
 import moment from 'moment';
 import styles from './Meta.module.scss';
 
 type Props = {
-  date: string
+  date: string,
+  tags: [],
 };
 
-const Meta = ({ date }: Props) => (
+const Meta = ({ date, tags }: Props) => (
   <div className={styles['meta']}>
-      작성일 : <span className={styles['meta__date']}>{moment(date).format('YYYY-MM-DD')}</span>
+    <div className={styles['meta__tags']}> {tags.map((tag) => <Tag>{tag}</Tag>)}</div>
+    <div className={styles['meta__date']}>Written at {moment(date).format('MMM Do, YYYY')}</div>
   </div>
 );
 
