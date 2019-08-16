@@ -3,18 +3,7 @@
 
 .post {
   animation: fadein 0.5s;
-
-  &__footer {
-    max-width: $layout-post-width;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-
-  &__comments {
-    max-width: $layout-post-width;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
+  padding-bottom: 50px;
 
   &__home-button {
     display: block;
@@ -38,28 +27,10 @@
     }
 
   }
-
-  &__top {
-    position: fixed;
-    background: #ffffff;
-    bottom: 30px;
-    right: 30px;
-    padding: 15px;
-    border-radius: 250px;
-    box-shadow: 0 0 3px #e3dede;
-  }
 }
 
 @include breakpoint-md {
   .post {
-    &__footer {
-      padding: 0;
-    }
-
-    &__comments {
-      padding: 0;
-    }
-
     &__home-button {
       position: fixed;
       max-width: auto;

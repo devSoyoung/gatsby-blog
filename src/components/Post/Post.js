@@ -1,7 +1,6 @@
 // @flow
 import React from 'react';
 import { Link } from 'gatsby';
-import Author from './Author';
 import Content from './Content';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
@@ -21,10 +20,6 @@ const Post = ({ post }: Props) => {
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} date={date} tags={tags} category={category} />
-      </div>
-
-      <div className={styles['post__footer']}>
-        <Author />
       </div>
     </div>
   );
