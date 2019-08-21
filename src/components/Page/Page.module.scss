@@ -5,20 +5,30 @@
   margin: auto;
   animation: fadein 0.5s;
   max-width: 600px;
+  padding-bottom: 100px;
 
   &__inner {
-    padding: 25px 20px;
+    padding: 0.5rem 1.25rem;
   }
 
   &__title {
     font-size: $typographic-base-font-size * 2.5;
     font-weight: 600;
     @include line-height(2);
+    @include margin-top(-0.5);
   }
 
   &__body {
     font-size: $typographic-base-font-size;
     @include line-height(1);
+  }
+}
+
+@include breakpoint-sm {
+  .page {
+    &__inner {
+      padding: 0;
+    }
   }
 }
 

@@ -4,10 +4,12 @@
 .post {
   animation: fadein 0.5s;
   padding-bottom: 50px;
+  max-width: 600px;
+  margin: auto;
 
   &__home-button {
     display: block;
-    max-width: 90px;
+    max-width: 80px;
     height: $button-height;
     padding: 0 24px;
     line-height: $button-height;
@@ -27,20 +29,6 @@
     }
 
   }
-}
-
-@include breakpoint-md {
-  .post {
-    &__home-button {
-      position: fixed;
-      max-width: auto;
-      margin: 0;
-      top: 30px;
-      left: 30px
-    }
-
-  }
-
 }
 
 @keyframes fadein {
