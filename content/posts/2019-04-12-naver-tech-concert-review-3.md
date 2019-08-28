@@ -1,5 +1,5 @@
 ---
-title: "빠르게 훑어보는 웹 개발 트렌드"
+title: "[TECHCON] 빠르게 훑어보는 웹 개발 트렌드"
 date: 2019-04-12
 template: "post"
 draft: false

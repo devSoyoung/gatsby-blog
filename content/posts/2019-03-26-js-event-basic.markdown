@@ -1,5 +1,5 @@
 ---
-title: "이벤트 등록: addEventListener()"
+title: "[JS] 이벤트 등록: addEventListener()"
 date: 2019-03-26
 template: "post"
 draft: false

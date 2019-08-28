@@ -5,10 +5,6 @@ template: "post"
 draft: false
 slug: "/posts/markdown-image-tag/"
 description: "github에서 Markdown 형식의 문서를 작성할 때, 이미지의 크기를 조절하는 방법과 정렬하는 방법을 정리한 글입니다."
-category: "ETC"
-tags:
-  - "ETC"
-  - "MARKDOWN"
 ---
 
 ## 이미지 첨부 : 간단버전

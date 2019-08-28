@@ -1,5 +1,5 @@
 ---
-title: "Redux와 Redux 미들웨어 - thunk, saga"
+title: "[React] Redux와 Redux 미들웨어 - thunk, saga"
 date: "2019-07-18"
 template: "post"
 draft: false
@@ -259,12 +259,60 @@ export default function* rootSaga() {
   yield all([...accountSagas]);
 }
 ```
-`all()`은 `Promise.all()`과 같습니다. yield 구문은 순차적으로 실행되기 때문에, 여러 개의 사가를 동시에 수행할 수 있도록 하기 위해 `all()` 메소드를 사용합니다.
+`all()`은 `Promise.all()`과 같습니다. yield 구문은 순차적으로 실행되기 때문에, 여러 개의 사가를 동시에 수행할 수 있도록 하기 위해 `all()` 메소드를 사용합니다.  
 
-```js
+```js  
+// store.js  
+import { createStore, applyMiddleware } from 'redux';  
+import rootReducer from './reducers';  
+import rootSaga from './rootSaga';
+  
+const initialState = {};
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(  
+  rootReducer,  
+  initialState,
+  applyMiddleware(sagaMiddleware),
+);  
+  
+sagaMiddleware.run(rootSaga);
 
+export default store;  
+```  
+ 
+```jsx
+import React from 'react';
+import { connect } from 'react-redux';
+import { signinIndex } from './actions';  
+
+class Comp extends React.Component {
+	render() {
+    const { signin, userinfo } = this.props;
+    return (
+      <Button onClick={signin}>로그인</Button>
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+  userinfo: state.user.userinfo,
+});
+
+const mapDispatchToProps = dispatch => ({
+	signin: userInfo => dispatch(signinIndex(userInfo)),
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Comp);
 ```
 
-*** 
-## Reference
+컴포넌트에서는 Index 액션을 dispatch로 수행하면 됩니다. 저는 개인적으로 액션 생성자가 일관성있고, 역할이 제대로 분리되는 느낌이 들어서 saga가 thunk보다 편하게 느껴졌습니다.
+
+> saga의 경우 테스트 코드를 작성할 때에도 많은 이점이 있다고 하는데, 테스트코드는 아직 작성을 안해봐서 잘 모르겠습니다..
+
+redux를 적용하기 전에, 미들웨어에 대해서도 충분히 고려해본다면 더 깔끔하고 관리하기 쉬운 코드를 만들 수 있을 것이라고 생각합니다! :)
+  
+## Reference  
 * https://orezytivarg.github.io/from-redux-thunk-to-sagas/

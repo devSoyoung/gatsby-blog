@@ -1,17 +1,13 @@
 ---
-title: "인코딩 설정 메타태그"
+title: "[HTML] 인코딩 설정 메타태그"
 date: 2019-05-06
 template: "post"
 draft: false
 slug: "/posts/html-encoding/"
 description: "HTML 파일 한글 인코딩이 깨질 때, 인코딩 방식을 지정해주는 메타태그에 대해 정리한 글입니다."
 category: "HTML"
-tags:
-  - "Programming"
-  - "HTML"
 ---
 
-## HTML 인코딩
 인코딩을 구글에 검색하면 다음과 같은 설명을 확인할 수 있다.
 
 > 정보의 형태나 형식을 표준화, 보안, 처리 속도 향상, 저장 공간 절약 등을 위해서 다른 형태나 형식으로 변환하는 처리 혹은 그 처리 방식을 말한다. 즉, 컴퓨터가 이해할 수 있는 형식으로 바꾸어주는 것을 의미한다.

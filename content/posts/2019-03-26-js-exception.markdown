@@ -1,5 +1,5 @@
 ---
-title: "Javascript 예외처리: try, catch, finally"
+title: "[JS] 예외처리: try, catch, finally"
 date: 2019-03-26
 template: "post"
 draft: false

@@ -5,10 +5,7 @@ template: "post"
 draft: false
 slug: "/posts/underfetching-overfetching/"
 description: "rest API의 underfetching, overfetching 개념에 대해 정리한 글입니다."
-category: "React"
-tags:
-  - "Rest API"
-  - "Web Development"
+category: "WEB"
 ---
 
 [Apollo Client에 관한 글](https://d2.naver.com/helloworld/4245995)을 읽던 중, Rest API의 underfetching, overfetching이라는 개념이 등장해, 해당 개념에 대해 보다 명확한 정리를 하기 위해 이 글을 작성하게 되었습니다.

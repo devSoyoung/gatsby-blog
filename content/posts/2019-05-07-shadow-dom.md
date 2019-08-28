@@ -1,5 +1,5 @@
 ---
-title: "Shadow DOM의 개념  사용예시"
+title: "[HTML] Shadow DOM의 개념 및 사용 예시"
 date: 2019-05-07
 template: "post"
 draft: false

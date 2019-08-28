@@ -1,5 +1,5 @@
 ---
-title: "플랫폼 UI 개발 전략의 모든 것"
+title: "[TECHCON] 플랫폼 UI 개발 전략의 모든 것"
 date: 2019-04-12
 template: "post"
 draft: false

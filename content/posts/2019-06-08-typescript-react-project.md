@@ -1,5 +1,5 @@
 ---
-title: Typescript로 react 프로젝트 생성하기
+title: "[React] Typescript로 react 프로젝트 생성하기"
 date: "2019-06-08T22:40:32.169Z"
 template: "post"
 draft: false

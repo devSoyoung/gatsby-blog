@@ -1,5 +1,5 @@
 ---
-title: "데이터 상태 관리, 그것을 알려주마!"
+title: "[TECHCON] 데이터 상태 관리, 그것을 알려주마!"
 date: 2019-04-12
 template: "post"
 draft: false

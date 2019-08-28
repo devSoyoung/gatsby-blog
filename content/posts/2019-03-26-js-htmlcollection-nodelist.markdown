@@ -1,5 +1,5 @@
 ---
-title: "HTMLCollection과 NodeList 차이"
+title: "[JS] HTMLCollection과 NodeList 차이"
 date: 2019-03-26
 template: "post"
 draft: false

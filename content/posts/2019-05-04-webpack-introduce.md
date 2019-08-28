@@ -6,9 +6,6 @@ draft: false
 slug: "/posts/webpack-introduce"
 description: "프론트엔드 개발을 하면서 접하게 된 웹팩을 왜 써야하는지, 어떻게 프로젝트에 적용할 수 있는지에 대한 내용을 간단히 정리한 글입니다."
 category: "Webpack"
-tags:
-  - "Programming"
-  - "Webpack"
 ---
 
 ## Webpack, 왜 필요할까?

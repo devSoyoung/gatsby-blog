@@ -2,7 +2,7 @@
 title: "[번역] React Tutorial: Components, Hooks, and Performance"
 date: "2019-08-06"
 template: "post"
-draft: false
+draft: true
 slug: "/posts/react-tutorial-article/"
 description: "React Tutorial: Components, Hooks, and Performance article을 번역한 글입니다."
 category: "React"

@@ -1,5 +1,5 @@
 ---
-title: "display 속성: inline과 block의 차이"
+title: "[CSS] display: inline과 block의 차이"
 date: 2019-03-26
 template: "post"
 draft: false
